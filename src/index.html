@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="RU">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<!-- <link rel="icon" href="./img/favicon.ico">  -->
+	<!-- Генератор фавикон - https://realfavicongenerator.net/ -->
+	<title>Project</title>
+	<meta name="description" content="Description">
+</head>
+
+<body>
+	<div class="wrapper">
+		<section class="section">
+			<div class="container">
+				<h1 class="title">Генератор сниппета в VSCode</h1>
+				<div class="columns">
+					<div class="column">
+						<form action="#">
+							<div class="field">
+								<input id="snippet-title" class="input" type="text" placeholder="Название">
+							</div>
+							<div class="field">
+								<input id="snippet-prefix" type="text" class="input" placeholder="Префикс">
+							</div>
+							<div class="field">
+								<textarea id="snippet-descr" class="textarea" placeholder="Описание"></textarea>
+							</div>
+							<div class="field">
+								<textarea id="snippet-code" class="textarea" placeholder="Код" style="min-height:200px;white-space: nowrap;"></textarea>
+							</div>
+							<div class="field">
+								<div class="label">Для каких файлов</div>
+								<div class="control">
+									<label class="checkbox"><input type="checkbox" value="html"> HTML</label>
+									<label class="checkbox ml-2"><input type="checkbox" value="css"> CSS</label>
+									<label class="checkbox ml-2"><input type="checkbox" value="scss"> SCSS</label>
+									<label class="checkbox ml-2"><input type="checkbox" value="javascript"> JavaScript</label>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="column">
+						<textarea id="snippet-result" class="textarea" placeholder="Результат" style="min-height:400px;height: 100%;"></textarea>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+
+</html>
